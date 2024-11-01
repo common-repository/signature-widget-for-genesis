@@ -1,0 +1,24 @@
+/**
+ * Stylesheet for Signature Widget for Genesis plugin.
+ *
+ * @package   Signature Widget for Genesis
+ * @author    Anita Carter <support@cre8tivediva.com>
+ * @copyright 2015 Anita Carter
+ * @license   GPL-2.0+
+ */
+
+/* Signature Widget for Genesis Desktop CSS
+--------------------------------------------- */
+
+.genesis-signature-widget {
+	margin-bottom: 40px;
+	width: 500px;
+}
+
+/* Signature Widget for Genesis Media Queries
+--------------------------------------------- */
+@media only screen and (max-width: 500px) {
+	.genesis-signature-widget {
+		width: 100%;
+	}
+}
